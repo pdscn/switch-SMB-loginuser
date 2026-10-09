@@ -1,0 +1,15 @@
+# 编译中间产物与测试可执行文件
+tests/bin/
+*.pdb
+*.obj
+*.user
+*.suo
+
+# 诊断脚本偶尔会生成的截图
+*.png
+!docs/*.png
+
+# 本机配置（含 DPAPI 密文，绝不应提交）
+config.xml
+config.xml.bak
+config.xml.corrupt-*
